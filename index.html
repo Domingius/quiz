@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script type="text/javascript">
+        let punteggio = 0
+        alert("ciao, benvenuto, in questo quiz devi rispondere a 5 semplici domande:")
+        let risposta1 = prompt("di che colore era il cavallo bianco di Napoleone? ")
+        while (risposta1 === null){
+            risposta1 = prompt("di che colore era il cavallo bianco di Napoleone?")
+        }
+        if (risposta1.toLowerCase() === "bianco"){
+            punteggio = punteggio + 1
+        }
+        let risposta2 = prompt("qual'è il terzo colore della bandiera italiana?")
+        while (risposta2 === null){
+            risposta2 = prompt("qual'è il terzo colore della bandiera italiana?")
+        }
+        if (risposta2.toLowerCase() === "rosso"){
+            punteggio = punteggio + 1
+        }
+        let risposta3 = prompt("qual'è il miglior amico dell'uomo?")
+        while (risposta3 === null){
+            risposta3 = prompt("qual'è il miglior amico dell'uomo?")
+        }
+        if (risposta3.toLowerCase() === "cane"){
+            punteggio = punteggio + 1
+        }
+        let risposta4 = prompt("qual'è la capitale della Spagna?")
+        while (risposta4 === null){
+            risposta4 = prompt("qual'è la capitale della Spagna?")
+        }
+        if (risposta4.toLowerCase() === "madrid"){
+            punteggio = punteggio + 1
+        }
+        let risposta5 = prompt("qual'è la vera identità di Spider-Man?")
+        while (risposta5 === null){
+            risposta5 = prompt("qual'è la vera identità di Spider-Man?")
+        }
+        if (risposta5.toLowerCase() === "peter parker"){
+            punteggio = punteggio + 1
+        }
+        alert("il tuo punteggio è: " + punteggio)
+    </script>
+</body>
+</html>
